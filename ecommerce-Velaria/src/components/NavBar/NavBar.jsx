@@ -3,10 +3,10 @@ import React from 'react'
 function NavBar() {
     return (
         <div>
+          <img src="../../../Imagenes/Logo 03.png" />
            <nav>
-               <img src="../../../../Imagenes\Logo 03.png" />
                <h3>Velaria</h3>
-                <ul className="navFlex">
+                <ul>
                   <li>Inicio</li>
                   <li>Indumentaria</li>                     
                   <li>Accesorios</li>
