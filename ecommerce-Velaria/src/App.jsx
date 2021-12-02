@@ -5,14 +5,13 @@ import NavBar from './components/NavBar/NavBar'
 
 function App() {
   const [count, setCount] = useState(0)
-  const estilos = {backgroundColor: 'black'}
 
   return (
     <div className="App">
-      
-      <NavBar />
+      <header className="App-header">
+        <NavBar />
+      </header>
     </div>
-    
   )
 }
 

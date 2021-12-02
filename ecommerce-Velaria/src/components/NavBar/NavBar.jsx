@@ -1,5 +1,9 @@
 import React from 'react'
 
+
+</body>
+</html>
+
 function NavBar() {
     return (
         <div>
@@ -13,6 +17,8 @@ function NavBar() {
                   <li>Velas</li> 
                   <li>Login | sign up</li>
                 </ul>            
+                <cartWidget />
+
               </nav> 
         </div>
     )
