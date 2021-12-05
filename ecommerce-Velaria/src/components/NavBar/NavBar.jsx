@@ -1,11 +1,8 @@
 import React from 'react'
 
 
-</body>
-</html>
-
 function NavBar() {
-    return (
+    return <>
         <div>
           <img src="../../../Imagenes/Logo 03.png" />
            <nav>
@@ -17,11 +14,11 @@ function NavBar() {
                   <li>Velas</li> 
                   <li>Login | sign up</li>
                 </ul>            
-                <cartWidget />
-
+                <CartWidget />
               </nav> 
         </div>
-    )
+        </>
+    
 }
 
 export default NavBar
